@@ -1,0 +1,50 @@
+:root{
+--venblue: #3C78D8;
+--vengray: #353744;
+}
+
+aside{
+    flex: 2;
+    background-color: #fff;
+    
+}
+
+main{
+    flex: 8;
+}
+
+.dashboard_content{
+    display: flex;
+    gap: 2%;
+    margin-top: 2%;
+    position: relative;
+
+}
+
+.DashLink{
+   gap: .5rem;
+   justify-content: flex-start;
+   display: flex;
+    color: var(--vengray);
+    cursor: pointer;
+    height: 8vh;
+    align-items: center;
+    font-weight: 400;
+    width: 100%;
+    transition: all .4s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1rem;
+}
+.DashLink:hover{
+ 
+    color: var(--venblue);
+}
+.DashLinkActive{
+    border-left: 6px solid var(--venblue) ;
+    background-color: #ECF2FB;
+    transition: all .4s ease;
+    color: var(--venblue);
+    font-weight: 700;
+    
+    box-sizing: border-box;
+}
+
