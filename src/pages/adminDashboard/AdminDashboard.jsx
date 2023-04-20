@@ -127,7 +127,7 @@ const AdminDashboard = () => {
         </aside>
         {/* Page Content */}
         <main>
-          <div className="main_container w-[90%] min-h-[80vh] bg-yellow-900">
+          <div className="main_container w-[90%] min-h-[80vh]">
             
             {activeMenu==1 && <DashboardPage />}
             {activeMenu==2 && <DomainsPage/>}

@@ -12,7 +12,8 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+ <div className="relative overflow-hidden">
+     <Router>
       <Routes>
         {/* Routes for the multi-step form */}
         <Route path="/" element={<SignUpForm />} />
@@ -20,6 +21,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
       </Routes>
     </Router>
+ </div>
   );
 }
 
