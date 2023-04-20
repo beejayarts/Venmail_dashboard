@@ -136,7 +136,8 @@ const AdminDashboard = () => {
             {activeMenu==5 && <MailSettingsPage />}
             {activeMenu==6 && <AccountPage />}
             {activeMenu==7 && <SecurityPage />}
-            {activeMenu==8 && <SubscriptionPage />}
+            {activeMenu==8 && <SubscriptionPage setActiveMenu={setActiveMenu} />}
+            
           </div>
         </main>
       </div>

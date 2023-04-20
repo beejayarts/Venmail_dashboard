@@ -2,7 +2,7 @@ import React,{useState} from "react";
 
 import AddNewUserModal from "../../components/AddNewUserModal";
 
-const SubscriptionPage = () => {
+const SubscriptionPage = ({setActiveMenu}) => {
 
   const [subPage, setSubPage] = useState('');
 
@@ -28,7 +28,7 @@ const SubscriptionPage = () => {
             </button>
           </div>
         </div>
-        {subPage == 'newuser' && <AddNewUserModal setSubPage={setSubPage}/> }
+        {subPage == 'newuser' && <AddNewUserModal setActiveMenu={setActiveMenu} setSubPage={setSubPage}/> }
         {/* Other plans */}
         <div className="other_plans">
           <h6>Other plans</h6>
