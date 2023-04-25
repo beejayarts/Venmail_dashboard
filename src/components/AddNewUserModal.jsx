@@ -16,7 +16,7 @@ const AddNewUserModal = ({setSubPage,setActiveMenu}) => {
   });
 
   
-
+// to be used later in capturing data across all forms below
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
