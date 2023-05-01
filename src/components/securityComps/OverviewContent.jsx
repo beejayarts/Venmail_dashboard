@@ -110,7 +110,7 @@ const OverviewContent = () => {
             <span>7</span>
           </button>
         </div>
-        <div className="overview_table_container mt-8">
+        <div className="overview_table_container max-h-[75vh] overflow-y-scroll mt-8">
           <table className="w-full table-auto ">
             <thead className="bg-[#F5F6FA]">
               <tr>
