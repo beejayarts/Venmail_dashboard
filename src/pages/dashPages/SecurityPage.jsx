@@ -2,8 +2,11 @@ import React,{useState} from "react";
 
 import OverviewContent from './../../components/securityComps/OverviewContent'
 import RolesContent from './../../components/securityComps/RolesContent';
-import SecurityContent from "../../components/securityComps/securityContent";
+
+
+
 import SpamContent from "../../components/securityComps/spamContent";
+import SecContent from "../../components/securityComps/SecContent";
 
 const SecurityPage = () => {
 
@@ -49,7 +52,7 @@ const SecurityPage = () => {
         <div className="security_main_side pt-8 w-[65%] pr-8">
           {tabpage=='overview'&& <OverviewContent/>}
           {tabpage=='roles' && <RolesContent/>}
-          {tabpage=='security' && <SecurityContent/>}
+          {tabpage=='security' && <SecContent />}
           {tabpage=='spam' && <SpamContent/>}
        
         </div>

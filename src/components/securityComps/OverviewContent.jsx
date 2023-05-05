@@ -141,8 +141,8 @@ const OverviewContent = () => {
                           <BsCheckCircle /> <p>Configured</p>
                         </div>
                       ) : (
-                        <div className="text-sm text-[#FDA152] flex gap-3 items-center ">
-                          <RiErrorWarningLine /> <p>Not Configured</p>
+                        <div className="text-sm text-[#FDA152] flex gap-3 items-center">
+                          <RiErrorWarningLine/> <p>Not Configured</p>
                         </div>
                       )}
                     </td>
