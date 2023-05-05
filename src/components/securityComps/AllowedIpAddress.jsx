@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import IpAddressTable from './IpAddressTable'
+
 const AllowedIpAddress = () => {
     const [ipTabPage, setIpTabPage]= useState(2)
     const handleIpTab = (n)=>{
@@ -26,7 +28,9 @@ const AllowedIpAddress = () => {
           User
         </button>
             </div>
-            <div className="allowedIpTabContent"></div>
+            <div className="allowedIpTabContent">
+            <IpAddressTable/>
+            </div>
         </div>
     </div>
   )
