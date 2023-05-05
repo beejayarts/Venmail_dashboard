@@ -29,7 +29,7 @@ const AllowedIpAddress = () => {
         </button>
             </div>
             <div className="allowedIpTabContent">
-            <IpAddressTable/>
+            <IpAddressTable cat='all'/>
             </div>
         </div>
     </div>
