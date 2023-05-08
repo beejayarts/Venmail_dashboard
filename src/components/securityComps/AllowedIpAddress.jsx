@@ -29,7 +29,10 @@ const AllowedIpAddress = () => {
         </button>
             </div>
             <div className="allowedIpTabContent">
-            <IpAddressTable cat='all'/>
+           {ipTabPage==1 &&  <IpAddressTable cat='all'/>}
+           {ipTabPage==2 &&  <IpAddressTable cat='super'/>}
+           {ipTabPage==3 &&  <IpAddressTable cat='admin'/>}
+           {ipTabPage==4 &&  <IpAddressTable cat='user'/>}
             </div>
         </div>
     </div>
