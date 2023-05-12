@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import RoleContentSuper from "./RoleContentSuper";
+import RoleContentAdmin from "./RoleContentAdmin";
+import RoleContentUser from "./RoleContentUser";
 
 const RolesContent = () => {
   const [roleTabContent, setRoleTabContent] = useState("super");
@@ -37,6 +39,8 @@ const RolesContent = () => {
       </div>
       <div className="rc_tab_content">
         {roleTabContent == "super" && <RoleContentSuper />}
+        {roleTabContent == "admin" && <RoleContentAdmin />}
+        {roleTabContent == "user" && <RoleContentUser />}
       </div>
     </div>
   );
