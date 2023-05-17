@@ -283,7 +283,7 @@ const SpamVerification = () => {
             </div>
             <div className="items-center flex gap-2">
               <input
-                id="dkimTempoFilter"
+                id="dnsblTempoFilter"
                 name="DNSBLFailureFilter"
                 type="radio"
               />{" "}
@@ -296,13 +296,13 @@ const SpamVerification = () => {
             </div>
             <div className="items-center flex gap-2">
               <input
-                id="dkimMovedFilter"
+                id="dnsblMovedFilter"
                 name="DNSBLFailureFilter"
                 type="radio"
               />{" "}
               <label
                 className="text-vengray text-base"
-                htmlFor="dkimMovedFilter"
+                htmlFor="dnsblMovedFilter"
               >
                 Moved to quarantine
               </label>
